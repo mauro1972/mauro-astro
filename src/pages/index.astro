@@ -1,5 +1,6 @@
 ---
-
+import Card from '../components/Card.astro'
+import HelloComponent from '../components/HelloComponent.jsx'
 ---
 
 <html lang="en">
@@ -12,5 +13,10 @@
 	</head>
 	<body>
 		<h1>Astro</h1>
+		<Card title="Card 1" text="Card content 1"/>
+		<Card title="Card 2" text="Card content 2"/>
+		<Card title="Card 3" text="Card content 3"/>
+
+		<HelloComponent client:load />
 	</body>
 </html>
