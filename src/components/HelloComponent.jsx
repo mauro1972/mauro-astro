@@ -3,7 +3,7 @@ function HelloComponent() {
         <div>
             <h3>Hello Component</h3>
             <button onClick={() => { alert('hello')}}>
-                Click Here.
+                Click this button.
             </button>
         </div>
     )
