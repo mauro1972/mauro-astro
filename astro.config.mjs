@@ -7,7 +7,6 @@ import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://mauro1972.github.io',
-  base: 'mauro-astro',
+  site: 'https://mauro-astro.github.io',
   integrations: [react(), icon()],
 });
